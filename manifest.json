@@ -1,0 +1,12 @@
+{
+    "name": "googlejk",
+    "version": "1.0.0",
+    "manifest_version": 2,
+    "description": "googlejk",
+    "content_scripts": [
+        {
+            "matches": ["https://www.google.co.jp/*"],
+            "js": ["index.js"]
+        }
+    ]
+}
