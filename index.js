@@ -3,7 +3,7 @@ function isGoogle() {
 }
 if (isGoogle()) {
     let i = 0;
-    const links = document.querySelectorAll('.rc .r a:first-child, #navcnt .navend a'); // Google検索結果リンク(前、次含む)
+    const links = document.querySelectorAll('.rc > .r > a[onmousedown], #navcnt .navend a'); // Google検索結果リンク(前、次含む)
     document.addEventListener('keydown', (e) => {
         if (e.key !== 'j' && e.key !== 'k' ||
             e.path[0].tagName === 'INPUT' ||
