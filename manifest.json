@@ -2,7 +2,7 @@
   "name": "googlejk",
   "version": "1.2.1",
   "manifest_version": 2,
-  "description": "googlejk",
+  "description": "Google JK is a Chrome extension that provide navigation using 'J' and 'K'.",
   "content_scripts": [
     {
       "matches": [
