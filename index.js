@@ -1,5 +1,5 @@
 let i = 0;
-const links = document.querySelectorAll('.rc > .r > a, #navcnt .navend a'); // Google検索結果リンク(前、次含む)
+const links = document.querySelectorAll('.r > a, #navcnt .navend a'); // Google検索結果リンク(前、次含む)
 document.addEventListener('keydown', (e) => {
   if (e.path[0].tagName === 'INPUT' || e.path[0].tagName === 'TEXTAREA') return; // 入力ボックスフォーカス中は何もしない
   if (e.key === 'j') {
