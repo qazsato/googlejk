@@ -1,5 +1,5 @@
 // Google検索結果リンク(前、次含む)
-const links = document.querySelectorAll('.rc .yuRUbf > a, #foot #pnprev,#pnnext');
+const links = document.querySelectorAll('#search a[data-ved][ping], #pnprev, #pnnext');
 let i = 0;
 document.addEventListener('keydown', (e) => {
   const key = e.key;
