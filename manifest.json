@@ -9,7 +9,8 @@
         "https://www.google.com/*",
         "https://www.google.co.jp/*"
       ],
-      "js": ["index.js"]
+      "js": ["index.js"],
+      "css": ["index.css"]
     }
   ],
   "icons": {

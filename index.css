@@ -1,0 +1,20 @@
+#search a[data-ved][ping]:focus,
+#pnprev:focus,
+#pnnext:focus {
+  border-bottom: 2px solid;
+}
+
+#search a[data-ved][ping]:focus::before {
+  content: ' ';
+  position: absolute;
+  top: 32px;
+  left: -12px;
+  border-top: 6px solid transparent;
+  border-left: 6px solid #5f6368;
+  border-bottom: 6px solid transparent;
+}
+
+/* 「J」押下時に画面左下に表示される、「/を押すと検索ボックスに移動できます」を非表示 */
+div[aria-live="polite"] {
+  display: none;
+}
